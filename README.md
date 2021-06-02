@@ -1,1 +1,2 @@
-# SA_Practica1
+# SEMINARIO1_GRUPO1_PROYECTO
+

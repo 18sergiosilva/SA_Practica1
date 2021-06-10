@@ -27,16 +27,6 @@ module.exports = function (config) {
     autoWatch: false,
     browsers: ['Chrome','ChromeHeadless'],
     //singleRun: true,
-    customLaunchers: {
-      ChromeHeadless: {
-        base: "Chrome",
-        flags: [
-          "--headless",
-          "--disable-gpu",
-          "--no-sandbox",
-          "--remote-debugging-port=9222"
-        ],
-      },
-    }
+    
   });
 };
